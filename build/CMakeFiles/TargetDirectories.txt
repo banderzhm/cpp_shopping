@@ -1,3 +1,0 @@
-H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/cpp_shopping_tests.dir
-H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/ALL_BUILD.dir
-H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/ZERO_CHECK.dir
