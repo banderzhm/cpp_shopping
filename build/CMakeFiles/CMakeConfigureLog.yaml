@@ -1,0 +1,412 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.14.10+8b8e13593
+      生成启动时间为 2025/7/23 19:05:08。
+      
+      节点 1 上的项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.48
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-bj7dy1"
+      binary: "H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-bj7dy1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "F:/runtime/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "F:/runtime/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-bj7dy1'
+        
+        Run Build Command(s): F:/program/visul_studio/idea/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c72ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.14.10+8b8e13593
+        生成启动时间为 2025/7/23 19:05:09。
+        
+        节点 1 上的项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7dy1\\cmTC_c72ed.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c72ed.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7dy1\\Debug\\”。
+          正在创建目录“cmTC_c72ed.dir\\Debug\\cmTC_c72ed.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c72ed.dir\\Debug\\cmTC_c72ed.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_c72ed.dir\\Debug\\cmTC_c72ed.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c72ed.dir\\Debug\\\\" /Fd"cmTC_c72ed.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\program\\qt\\qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35209 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c72ed.dir\\Debug\\\\" /Fd"cmTC_c72ed.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\program\\qt\\qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7dy1\\Debug\\cmTC_c72ed.exe" /INCREMENTAL /ILK:"cmTC_c72ed.dir\\Debug\\cmTC_c72ed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-bj7dy1/Debug/cmTC_c72ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-bj7dy1/Debug/cmTC_c72ed.lib" /MACHINE:X64  /machine:x64 cmTC_c72ed.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c72ed.vcxproj -> H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7dy1\\Debug\\cmTC_c72ed.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c72ed.dir\\Debug\\cmTC_c72ed.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c72ed.dir\\Debug\\cmTC_c72ed.tlog\\cmTC_c72ed.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bj7dy1\\cmTC_c72ed.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': F:/program/visul_studio/idea/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Running the CXX compiler's linker: "F:/program/visul_studio/idea/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35209.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-config.cmake:31 (find_dependency)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-config.cmake:13 (find_dependency)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "CMakeLists.txt:41 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-yt30h7"
+      binary: "H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-yt30h7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "F:/runtime/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "F:/runtime/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-yt30h7'
+        
+        Run Build Command(s): F:/program/visul_studio/idea/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3df3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.14.10+8b8e13593
+        生成启动时间为 2025/7/23 19:05:10。
+        
+        节点 1 上的项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3df3f.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\Debug\\”。
+          正在创建目录“cmTC_3df3f.dir\\Debug\\cmTC_3df3f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3df3f.dir\\Debug\\cmTC_3df3f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_3df3f.dir\\Debug\\cmTC_3df3f.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        SetModuleDependencies:
+          正在创建目录“cmTC_3df3f.dir\\Debug\\cmTC_3df3f_MD.tlog\\”。
+          正在扫描源以查找模块依赖项...
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_3df3f.dir\\Debug\\\\" /scanDependencies "cmTC_3df3f.dir\\Debug\\\\" /Fo"cmTC_3df3f.dir\\Debug\\\\" /Fd"cmTC_3df3f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx"
+        H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj]
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_3df3f.dir\\Debug\\\\" /scanDependencies "cmTC_3df3f.dir\\Debug\\\\" /Fo"cmTC_3df3f.dir\\Debug\\\\" /Fd"cmTC_3df3f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx"
+          src.cxx
+        H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj]
+        F:\\program\\visul_studio\\idea\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets(532,5): warning MSB8074: 无法读取模块依赖项文件 cmTC_3df3f.dir\\Debug\\src.cxx.module.json: 应为来自命名空间“”的元素“root”。。遇到名称为“”、命名空间为“”的“None”。 生成顺序可能不正确。 [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj]
+        ClCompile:
+          正在编译...
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_3df3f.dir\\Debug\\\\" /Fo"cmTC_3df3f.dir\\Debug\\\\" /Fd"cmTC_3df3f.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_3df3f.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35209 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_3df3f.dir\\Debug\\\\" /Fo"cmTC_3df3f.dir\\Debug\\\\" /Fd"cmTC_3df3f.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_3df3f.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx"
+          src.cxx
+        H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj]
+        已完成生成项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj”(默认目标) (1) ->
+        (SetModuleDependencies 目标) -> 
+          F:\\program\\visul_studio\\idea\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets(532,5): warning MSB8074: 无法读取模块依赖项文件 cmTC_3df3f.dir\\Debug\\src.cxx.module.json: 应为来自命名空间“”的元素“root”。。遇到名称为“”、命名空间为“”的“None”。 生成顺序可能不正确。 [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj]
+        
+        
+        “H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj”(默认目标) (1) ->
+        (SetModuleDependencies 目标) -> 
+          H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj]
+          H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj]
+        
+        
+        “H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\src.cxx(1,10): error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yt30h7\\cmTC_3df3f.vcxproj]
+        
+            1 个警告
+            3 个错误
+        
+        已用时间 00:00:00.70
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-config.cmake:31 (find_dependency)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-config.cmake:13 (find_dependency)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "CMakeLists.txt:41 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-86fvnh"
+      binary: "H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-86fvnh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "F:/runtime/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "F:/runtime/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-86fvnh'
+        
+        Run Build Command(s): F:/program/visul_studio/idea/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9b616.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.14.10+8b8e13593
+        生成启动时间为 2025/7/23 19:05:10。
+        
+        节点 1 上的项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\cmTC_9b616.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9b616.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\Debug\\”。
+          正在创建目录“cmTC_9b616.dir\\Debug\\cmTC_9b616.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9b616.dir\\Debug\\cmTC_9b616.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_9b616.dir\\Debug\\cmTC_9b616.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        SetModuleDependencies:
+          正在创建目录“cmTC_9b616.dir\\Debug\\cmTC_9b616_MD.tlog\\”。
+          正在扫描源以查找模块依赖项...
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_9b616.dir\\Debug\\\\" /scanDependencies "cmTC_9b616.dir\\Debug\\\\" /Fo"cmTC_9b616.dir\\Debug\\\\" /Fd"cmTC_9b616.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\CheckFunctionExists.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35209 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_9b616.dir\\Debug\\\\" /scanDependencies "cmTC_9b616.dir\\Debug\\\\" /Fo"cmTC_9b616.dir\\Debug\\\\" /Fd"cmTC_9b616.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        ClCompile:
+          正在编译...
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_9b616.dir\\Debug\\\\" /Fo"cmTC_9b616.dir\\Debug\\\\" /Fd"cmTC_9b616.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_9b616.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\CheckFunctionExists.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35209 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_9b616.dir\\Debug\\\\" /Fo"cmTC_9b616.dir\\Debug\\\\" /Fd"cmTC_9b616.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_9b616.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\Debug\\cmTC_9b616.exe" /INCREMENTAL /ILK:"cmTC_9b616.dir\\Debug\\cmTC_9b616.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-86fvnh/Debug/cmTC_9b616.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-86fvnh/Debug/cmTC_9b616.lib" /MACHINE:X64  /machine:x64 cmTC_9b616.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\cmTC_9b616.vcxproj]
+        已完成生成项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\cmTC_9b616.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\cmTC_9b616.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86fvnh\\cmTC_9b616.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-config.cmake:31 (find_dependency)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/program/qt/qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-config.cmake:13 (find_dependency)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:893 (_find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:67 (find_package)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake:128 (boostcfg_find_component)"
+      - "F:/runtime/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
+      - "F:/runtime/vcpkg/scripts/buildsystems/vcpkg.cmake:847 (include)"
+      - "CMakeLists.txt:41 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-06cdcb"
+      binary: "H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-06cdcb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "F:/runtime/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "F:/runtime/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-06cdcb'
+        
+        Run Build Command(s): F:/program/visul_studio/idea/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_07ab4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.14.10+8b8e13593
+        生成启动时间为 2025/7/23 19:05:11。
+        
+        节点 1 上的项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\cmTC_07ab4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_07ab4.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\Debug\\”。
+          正在创建目录“cmTC_07ab4.dir\\Debug\\cmTC_07ab4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_07ab4.dir\\Debug\\cmTC_07ab4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_07ab4.dir\\Debug\\cmTC_07ab4.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        SetModuleDependencies:
+          正在创建目录“cmTC_07ab4.dir\\Debug\\cmTC_07ab4_MD.tlog\\”。
+          正在扫描源以查找模块依赖项...
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_07ab4.dir\\Debug\\\\" /scanDependencies "cmTC_07ab4.dir\\Debug\\\\" /Fo"cmTC_07ab4.dir\\Debug\\\\" /Fd"cmTC_07ab4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\CheckFunctionExists.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35209 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_07ab4.dir\\Debug\\\\" /scanDependencies "cmTC_07ab4.dir\\Debug\\\\" /Fo"cmTC_07ab4.dir\\Debug\\\\" /Fd"cmTC_07ab4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        ClCompile:
+          正在编译...
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_07ab4.dir\\Debug\\\\" /Fo"cmTC_07ab4.dir\\Debug\\\\" /Fd"cmTC_07ab4.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_07ab4.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\CheckFunctionExists.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.44.35209 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /FS /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /ifcOutput "cmTC_07ab4.dir\\Debug\\\\" /Fo"cmTC_07ab4.dir\\Debug\\\\" /Fd"cmTC_07ab4.dir\\Debug\\vc143.pdb" /sourceDependencies "cmTC_07ab4.dir\\Debug\\.d.json" /external:W1 /Gd /TP /errorReport:queue "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          F:\\program\\visul_studio\\idea\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\Debug\\cmTC_07ab4.exe" /INCREMENTAL /ILK:"cmTC_07ab4.dir\\Debug\\cmTC_07ab4.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-06cdcb/Debug/cmTC_07ab4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/CMakeScratch/TryCompile-06cdcb/Debug/cmTC_07ab4.lib" /MACHINE:X64  /machine:x64 cmTC_07ab4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\cmTC_07ab4.vcxproj]
+        已完成生成项目“H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\cmTC_07ab4.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\cmTC_07ab4.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\CMakeFiles\\CMakeScratch\\TryCompile-06cdcb\\cmTC_07ab4.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.46
+        
+      exitCode: 1
+...

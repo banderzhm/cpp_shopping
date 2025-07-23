@@ -1,0 +1,10 @@
+^H:\STUDY\CPP\CPP_STUDY\CPP_SHOPPING\CMAKELISTS.TXT
+setlocal
+F:\program\qt\qt\Tools\CMake_64\bin\cmake.exe -SH:/study/cpp/cpp_study/cpp_shopping -BH:/study/cpp/cpp_study/cpp_shopping/build --check-stamp-file H:/study/cpp/cpp_study/cpp_shopping/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

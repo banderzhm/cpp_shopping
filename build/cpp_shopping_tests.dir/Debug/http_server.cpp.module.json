@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "cpp_shopping_tests.dir\\Debug\\http_server.obj",
+            "outputs": [
+                "H:\\study\\cpp\\cpp_study\\cpp_shopping\\build\\cpp_shopping_tests.dir\\Debug\\vc143.pdb",
+                "cpp_shopping_tests.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

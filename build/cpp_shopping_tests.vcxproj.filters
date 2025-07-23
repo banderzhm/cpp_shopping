@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\tests\test_join_query.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\tests\test_orm_pfr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\tests\test_user_sql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\src\http_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\src\init_log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\src\json_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\src\router.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\src\sql_mapper\examples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\src\sql_mapper\mybatis_mapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\study\cpp\cpp_study\cpp_shopping\source\src\websocket_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\study\cpp\cpp_study\cpp_shopping\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DEA0C25E-B7E0-3DDA-B99B-AFDF8C923259}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

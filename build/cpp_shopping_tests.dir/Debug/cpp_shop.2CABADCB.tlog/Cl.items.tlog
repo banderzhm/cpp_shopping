@@ -1,0 +1,11 @@
+H:\study\cpp\cpp_study\cpp_shopping\source\tests\test_join_query.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\test_join_query.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\tests\test_orm_pfr.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\test_orm_pfr.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\tests\test_user_sql.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\test_user_sql.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\src\http_server.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\http_server.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\src\init_log.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\init_log.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\src\json_utils.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\json_utils.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\src\main.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\main.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\src\router.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\router.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\src\sql_mapper\examples.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\examples.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\src\sql_mapper\mybatis_mapper.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\mybatis_mapper.obj
+H:\study\cpp\cpp_study\cpp_shopping\source\src\websocket_server.cpp;H:\study\cpp\cpp_study\cpp_shopping\build\cpp_shopping_tests.dir\Debug\websocket_server.obj
